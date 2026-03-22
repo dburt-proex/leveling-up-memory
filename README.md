@@ -17,39 +17,13 @@ sessions/        — chronological session logs + template
 
 ---
 
-## Health Analysis (2026-03-22)
-
-### ✅ Fixed
-
-| Issue | Files Removed | Resolution |
-|---|---|---|
-| **Duplicate instruction files** — `execution_engine.txt`, `memory_layer.txt`, `opportunity_engine.txt`, `project_instruction_box.txt`, and `validation_layer.txt` were all subset/condensed copies of `codex_instruction_box.txt` | 5 files removed | `instructions/codex_instruction_box.txt` is now the single source of truth |
-
-### ⚠️ Noted (stubs — populate as work progresses)
-
-| File | Status |
-|---|---|
-| `decisions/decision-log.md` | Empty placeholder |
-| `decisions/lessons-learned.md` | Empty placeholder |
-| `opportunities/active-opportunities.md` | Empty placeholder |
-| `opportunities/monetization-pipeline.md` | Empty placeholder |
-| `projects/CASA.md` | Empty placeholder |
-| `projects/JobTap.md` | Empty placeholder |
-| `projects/Leveling-Up.md` | Empty placeholder |
-| `sessions/2026-03-22-session-001.md` | Empty placeholder |
-| `sessions/2026-03-23-session-002.md` | Empty placeholder |
-| `assets/` sub-folders | All `.gitkeep` placeholders |
-
----
-
 ## Instructions
 
-The single authoritative system prompt lives in [`instructions/codex_instruction_box.txt`](instructions/codex_instruction_box.txt). It defines:
+The `instructions/` folder contains the system prompts and operating rules:
 
-- Role and primary objective
-- Core rules and default output structure
-- Execution loop (Direction Check → Plan → Build → Verify → Iterate)
-- Validation layer
-- Memory layer (session continuity, asset reuse)
-- Opportunity engine (3-option generation at session start)
-- Decision priority and anti-patterns
+- [`codex_instruction_box.txt`](instructions/codex_instruction_box.txt) — full system prompt and operating instructions
+- [`execution_engine.txt`](instructions/execution_engine.txt) — execution loop and rules
+- [`memory_layer.txt`](instructions/memory_layer.txt) — session continuity and asset tracking
+- [`opportunity_engine.txt`](instructions/opportunity_engine.txt) — 3-option generation at session start
+- [`project_instruction_box.txt`](instructions/project_instruction_box.txt) — project-mode operating rules
+- [`validation_layer.txt`](instructions/validation_layer.txt) — output validation criteria
