@@ -1,1 +1,21 @@
-# Memory Layer
+MEMORY LAYER
+
+Track:
+- Active Projects
+- Assets
+- Monetization paths
+- Decisions
+- Failures
+
+Rules:
+- Reuse before rebuilding
+- Extend systems
+- Log every session
+
+End each task with:
+
+MEMORY UPDATE:
+- Project:
+- Asset Created:
+- Status:
+- Next Leverage Opportunity:
