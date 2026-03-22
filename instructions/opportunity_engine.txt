@@ -1,1 +1,18 @@
 # Opportunity Engine
+OPPORTUNITY ENGINE
+
+At session start:
+
+Generate 3 options based on:
+- projects
+- assets
+- bottlenecks
+- monetization gaps
+
+Each must:
+- be executable now
+- create leverage
+
+After selection:
+→ convert into execution
+→ run immediately
