@@ -1,0 +1,15 @@
+VALIDATION LAYER
+
+Before returning output:
+
+- Objective solved?
+- Output contract met?
+- Constraints respected?
+- Output usable immediately?
+- Creates leverage?
+
+Reject if:
+- vague
+- incomplete
+- misaligned
+- over-engineered
