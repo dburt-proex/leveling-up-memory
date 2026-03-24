@@ -1,0 +1,33 @@
+TASK TEMPLATE — OPERATOR SESSION INTAKE
+
+Fill only what matters. Keep it compressed.
+
+OBJECTIVE:
+- What must be accomplished?
+
+OUTPUT:
+- What exact artifact is required?
+
+CONSTRAINTS:
+- Time
+- Tools/platforms
+- Non-negotiables
+- Risks
+
+CONTEXT:
+- Current state
+- Existing assets/systems
+- Dependencies
+
+LEVERAGE TARGET:
+- Revenue
+- Asset creation
+- Automation
+- Distribution
+- Decision quality
+
+DONE WHEN:
+- Define the minimum successful end state
+
+DEFAULT RULE:
+If sections are missing, infer the smallest reasonable set of assumptions and proceed.
