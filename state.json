@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "name": "JobTap",
+      "status": "monetization",
+      "next_objective": "first paying contractors"
+    },
+    {
+      "name": "CASA",
+      "status": "productization",
+      "next_objective": "sellable audit offer"
+    }
+  ],
+  "assets": [],
+  "decisions": [],
+  "monetization": [],
+  "last_action": "",
+  "next_actions": []
+}
